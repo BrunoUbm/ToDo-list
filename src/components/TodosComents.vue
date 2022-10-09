@@ -71,7 +71,7 @@
 
 <style>
     body{
-        background-color: rgb(3, 87, 79);
+        background-color: rgb(1, 11, 10);
     }
     .title{
         font-family:'Times New Roman', Times, serif;
@@ -98,19 +98,21 @@
         border: none;
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
-        background-color: aqua;
+        background-color: rgb(6, 64, 64);
         font-size: 25px;
+        color: white;
     }
 
     .list_coments{
         width: 600px;
-        height: 60px;
-        background-color: rgb(0, 5, 26, 0.7);
+        height: 50px;
+        background-color: rgba(103, 132, 132, 0.7);
         position: relative;
         left: 652.5px;
         font-size: 35px;
         color: white;
         border-radius: 5px;
+        padding-top: 15px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
@@ -120,16 +122,19 @@
         width: 100px;
         border: none;
         border-radius: 10px;
-        background-color: aqua;
+        background-color: rgb(6, 64, 64);
         font-size: 25px;
+        color: white;
     }
 
     .delete_coment{
         position: absolute;
-        height: 60px;
-        width: 60px;
+        height: 65px;
+        width: 65px;
         right: 0px;
-        background-color: aqua;
+        top: 0px;
+        background-color: rgb(6, 64, 64);
+        color: white;
     }
 
 
